@@ -5,13 +5,7 @@ import java.util.stream.*;
 
 public class MyClass {
     public static void main(String args[]) {
-        ArrayList<String> strList =  new ArrayList<>();
-        
-        strList.add("shubham");
-        strList.add("Kaurav");
-        strList.add("Nihal");
-        strList.add("Shukla");
-        strList.add("Vishesh");
+        ArrayList<String> strList =  new ArrayList<>(Arrays.asList("shubham","Kaurav","Nihal","Shukla","Vishesh"));
         
         List capsStr = new ArrayList<>();
         
