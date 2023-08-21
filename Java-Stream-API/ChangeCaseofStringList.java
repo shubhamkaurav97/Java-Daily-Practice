@@ -3,7 +3,7 @@
 import java.util.*;
 import java.util.stream.*;
 
-public class MyClass {
+public class ChangeCaseofStringList {
     public static void main(String args[]) {
         ArrayList<String> strList =  new ArrayList<>(Arrays.asList("shubham","Kaurav","Nihal","Shukla","Vishesh"));
         
