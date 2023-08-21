@@ -1,0 +1,25 @@
+//Write a program to find duplicate elements in two given arrays using single loop.
+
+import java.util.*;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        int arr[]={3,4,5,6,7,8,59,11};
+        int arr2[] = {7,8,9,10,11,12};
+        
+        Set<Integer> eleSet = new HashSet<>();
+        
+        for(int n: arr){
+            eleSet.add(n);
+        }
+        
+        System.out.println("Duplicate Elements in both arrays are: ");
+        
+        for(int i=0;i<arr2.length;i++){
+            if(eleSet.contains(arr2[i])){
+                System.out.println(arr2[i]);
+            }
+        }
+    }
+}
