@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class BasicMapImplementation {
     public static void main(String[] args) {
         Map<String,Integer> mapEle =  new HashMap<>();
         
