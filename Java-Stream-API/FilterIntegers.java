@@ -3,7 +3,7 @@
 import java.util.*;
 import java.util.stream.*;
 
-public class MyClass {
+public class FilterIntegers {
     public static void main(String args[]) {
         ArrayList<Integer> intList =  new ArrayList<>(Arrays.asList(32,92,15,63,85,90,76,82,112));
         
