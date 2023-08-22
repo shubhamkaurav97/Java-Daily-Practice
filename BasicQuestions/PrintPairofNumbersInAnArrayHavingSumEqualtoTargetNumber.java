@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class HelloWorld{
+public class PrintPairofNumbersInAnArrayHavingSumEqualtoTargetNumber{
 
      public static void main(String []args){
         int arr[]={6,5,3,8,9,1,2,4,7};
