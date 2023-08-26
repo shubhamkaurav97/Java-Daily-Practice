@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MyClass {
+public class UseStreamAPItofindOddNumbersFromList {
     public static void main(String args[]) {
       ArrayList <Integer> arrList = new ArrayList<>(Arrays.asLIst(1,2,4,99,44,33,11));
       
